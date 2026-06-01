@@ -439,16 +439,16 @@ footer {
         box-shadow: 0 15px 30px rgba(0,0,0,0.15);
         gap: 0;
         
-        /* Smooth drop-down animation */
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        transition: clip-path 0.4s cubic-bezier(0.86, 0, 0.07, 1), opacity 0.4s ease;
+        /* Smooth circular drop-down animation from hamburger menu */
+        clip-path: circle(0px at 95% 0%);
+        transition: clip-path 0.5s ease-in-out, opacity 0.4s ease;
         opacity: 0;
         display: flex;
         pointer-events: none;
     }
 
     .nav-links.nav-active {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: circle(150% at 95% 0%);
         opacity: 1;
         pointer-events: all;
     }
