@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clubs & Extracurriculars | Amrita Vishwa Vidyapeetham</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .club-card {
+            background: var(--card-bg-light);
+            padding: 35px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: 0.3s ease;
+            border-bottom: 4px solid transparent;
+            height: 100%;
+        }
+        .club-card:hover {
+            border-bottom: 4px solid var(--amrita-red);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(205, 9, 71, 0.1);
+        }
+        .club-card h3 {
+            font-size: 1.6rem;
+            color: var(--darker-bg);
+            margin-bottom: 5px;
+        }
+        .club-tagline {
+            color: var(--amrita-red);
+            font-weight: 600;
+            margin-bottom: 25px;
+            font-size: 1.05rem;
+        }
+        .club-section {
+            margin-bottom: 18px;
+        }
+        .club-section:last-child {
+            margin-bottom: 0;
+        }
+        .club-section strong {
+            display: block;
+            color: var(--darker-bg);
+            margin-bottom: 5px;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .club-section p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">Amrita <span class="highlight">Vishwa Vidyapeetham</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="clubs.html" class="highlight">Clubs</a></li>
+            <li><a href="hostel.html">Campus Life</a></li>
+            <li><a href="index.html#survival">Survival Kit</a></li>
+            <li><a href="index.html#tools">Resources</a></li>
+            <li><a href="campuses.html">Campuses</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+
+    <section class="section light-section" style="padding-top: 150px; min-height: 100vh;">
+        <div class="container">
+            <h1 class="section-title">Clubs at <span class="highlight">Amrita</span></h1>
+            <p class="section-subtitle">Discover the vibrant student organizations at the Amaravati campus.</p>
+            
+            <div class="grid-2">
+                <!-- Club 1 -->
+                <div class="club-card">
+                    <div class="card-icon">💻</div>
+                    <h3>Chakravyuha</h3>
+                    <p class="club-tagline">Hackathons & Problem Solving Club</p>
+                    <div class="club-section">
+                        <strong>What they do:</strong>
+                        <p>Competitive programming, Problem solving, Coding contests, Hackathons, AI and technology discussions, Research paper exploration, Technical learning sessions</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Who should join:</strong>
+                        <p>Students interested in coding, DSA enthusiasts, Hackathon participants, Software development aspirants</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Career Benefits:</strong>
+                        <p>Improves coding skills, Helps with placements, Builds problem-solving mindset, Useful for product-based company interviews</p>
+                    </div>
+                </div>
+
+                <!-- Club 2 -->
+                <div class="club-card">
+                    <div class="card-icon">🤖</div>
+                    <h3>Robotics Club AVV</h3>
+                    <p class="club-tagline">Innovate. Build. Inspire.</p>
+                    <div class="club-section">
+                        <strong>What they do:</strong>
+                        <p>Robotics projects, Embedded systems, Arduino, IoT projects, Hardware development, Robotics competitions, Drone and automation activities</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Who should join:</strong>
+                        <p>ECE students, Robotics enthusiasts, Hardware lovers, Makers and innovators</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Career Benefits:</strong>
+                        <p>Practical engineering skills, Industry-level project experience, Hardware + software integration knowledge</p>
+                    </div>
+                </div>
+
+                <!-- Club 3 -->
+                <div class="club-card">
+                    <div class="card-icon">🎤</div>
+                    <h3>AVINYA</h3>
+                    <p class="club-tagline">Fostering Skills • Empowering Voices • Building Leaders</p>
+                    <div class="club-section">
+                        <strong>What they do:</strong>
+                        <p>Leadership activities, Student engagement programs, Talent development, Event organization, Communication activities, Personality development</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Who should join:</strong>
+                        <p>Students interested in leadership, Event management enthusiasts, Public speaking learners</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Career Benefits:</strong>
+                        <p>Leadership skills, Team management, Networking, Communication improvement</p>
+                    </div>
+                </div>
+
+                <!-- Club 4 -->
+                <div class="club-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>PRACHURYA</h3>
+                    <p class="club-tagline">Ignite • Inspire</p>
+                    <div class="club-section">
+                        <strong>What they do:</strong>
+                        <p>Technical workshops, Coding awareness, Python sessions, Cybersecurity activities, Technology events, Knowledge-sharing programs</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Who should join:</strong>
+                        <p>Technology enthusiasts, Students interested in technical communities</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Career Benefits:</strong>
+                        <p>Technical exposure, Networking, Workshop experience, Industry awareness</p>
+                    </div>
+                </div>
+
+                <!-- Club 5 -->
+                <div class="club-card">
+                    <div class="card-icon">📷</div>
+                    <h3>DRSYA (Multimedia Club)</h3>
+                    <p class="club-tagline">Where Ideas Ignite and Media Connects</p>
+                    <div class="club-section">
+                        <strong>What they do:</strong>
+                        <p>Photography, Videography, Graphic design, Poster design, Event coverage, Social media content creation, Campus media management</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Who should join:</strong>
+                        <p>Creative students, Content creators, Photographers, Video editors</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Career Benefits:</strong>
+                        <p>Portfolio building, Design skills, Media production experience, Branding knowledge</p>
+                    </div>
+                </div>
+
+                <!-- Club 6 -->
+                <div class="club-card">
+                    <div class="card-icon">🧠</div>
+                    <h3>ReLU</h3>
+                    <p class="club-tagline">Refining Logic and Unleashing AI</p>
+                    <div class="club-section">
+                        <strong>What they do:</strong>
+                        <p>Artificial Intelligence, Machine Learning, Data Science, AI workshops, Technical discussions, Research-oriented activities</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Who should join:</strong>
+                        <p>AI enthusiasts, ML learners, Future data scientists</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Career Benefits:</strong>
+                        <p>AI exposure, Research opportunities, Industry-relevant skills</p>
+                    </div>
+                </div>
+
+                <!-- Club 7 -->
+                <div class="club-card">
+                    <div class="card-icon">💃</div>
+                    <h3>Nritya Sparsh</h3>
+                    <p class="club-tagline">Dance Club</p>
+                    <div class="club-section">
+                        <strong>What they do:</strong>
+                        <p>Dance performances, Cultural events, Choreography, Inter-college competitions, Festival performances</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Who should join:</strong>
+                        <p>Anyone interested in dance, Beginners and experienced dancers</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Career Benefits:</strong>
+                        <p>Confidence, Stage presence, Teamwork, Stress relief</p>
+                    </div>
+                </div>
+
+                <!-- Club 8 -->
+                <div class="club-card">
+                    <div class="card-icon">⚽</div>
+                    <h3>Avisruta</h3>
+                    <p class="club-tagline">Sports Club</p>
+                    <div class="club-section">
+                        <strong>What they do:</strong>
+                        <p>Sports tournaments, Football events, Intramurals, Fitness activities, Sports competitions</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Who should join:</strong>
+                        <p>Sports enthusiasts, Fitness-focused students</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Career Benefits:</strong>
+                        <p>Leadership, Team spirit, Discipline, Physical fitness</p>
+                    </div>
+                </div>
+
+                <!-- Club 9 -->
+                <div class="club-card">
+                    <div class="card-icon">🎵</div>
+                    <h3>Saptaswara</h3>
+                    <p class="club-tagline">Music Club</p>
+                    <div class="club-section">
+                        <strong>What they do:</strong>
+                        <p>Singing, Instrumental performances, Music events, Cultural celebrations, Musical competitions</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Who should join:</strong>
+                        <p>Singers, Instrument players, Music enthusiasts</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Career Benefits:</strong>
+                        <p>Creativity, Confidence, Stage experience</p>
+                    </div>
+                </div>
+
+                <!-- Club 10 -->
+                <div class="club-card">
+                    <div class="card-icon">🎨</div>
+                    <h3>Advika</h3>
+                    <p class="club-tagline">Kala Sahasrayojana</p>
+                    <div class="club-section">
+                        <strong>What they do:</strong>
+                        <p>Fine arts, Drawing, Painting, Creative arts, Craft activities, Artistic competitions</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Who should join:</strong>
+                        <p>Creative students, Art enthusiasts</p>
+                    </div>
+                    <div class="club-section">
+                        <strong>Career Benefits:</strong>
+                        <p>Creativity, Design thinking, Artistic portfolio development</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-2" style="margin-top: 60px;">
+                <a href="index.html" class="btn primary-btn">Back to Home</a>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campuses | Amrita Vishwa Vidyapeetham</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .campus-card {
+            background: var(--card-bg-light);
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: 0.3s ease;
+            text-align: center;
+            border-bottom: 4px solid transparent;
+            height: 100%;
+        }
+        .campus-card:hover {
+            border-bottom: 4px solid var(--amrita-red);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(205, 9, 71, 0.1);
+        }
+        .campus-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            background: white;
+        }
+        .campus-card h3 {
+            font-size: 1.5rem;
+            color: var(--darker-bg);
+            margin-bottom: 10px;
+        }
+        .campus-detail {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 15px;
+        }
+        .read-more {
+            display: inline-block;
+            font-weight: 600;
+            color: var(--amrita-red);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.85rem;
+        }
+        a.campus-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">Amrita <span class="highlight">Vishwa Vidyapeetham</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="hostel.html">Campus Life</a></li>
+            <li><a href="index.html#survival">Survival Kit</a></li>
+            <li><a href="index.html#tools">Resources</a></li>
+            <li><a href="campuses.html" class="highlight">Campuses</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+
+    <section class="section light-section" style="padding-top: 150px; min-height: 100vh;">
+        <div class="container">
+            <h1 class="section-title">Our <span class="highlight">Campuses</span></h1>
+            <p class="section-subtitle">Amrita Vishwa Vidyapeetham operates through a network of 10 spectacular campuses across India. Click on any campus to view courses and details.</p>
+            
+            <div class="grid-3">
+                <!-- Coimbatore -->
+                <a href="campus-coimbatore.html" class="campus-link">
+                    <div class="campus-card">
+                        <img src="assets/coimbatore.jpg" class="campus-img" alt="Coimbatore Campus">
+                        <h3>Coimbatore</h3>
+                        <p class="campus-detail">Headquarters, Tamil Nadu</p>
+                        <span class="read-more">View Courses ➔</span>
+                    </div>
+                </a>
+                
+                <!-- Amaravati -->
+                <a href="campus-amaravati.html" class="campus-link">
+                    <div class="campus-card">
+                        <img src="assets/amaravati.jpg" class="campus-img" alt="Amaravati Campus">
+                        <h3>Amaravati</h3>
+                        <p class="campus-detail">Andhra Pradesh</p>
+                        <span class="read-more">View Courses ➔</span>
+                    </div>
+                </a>
+
+                <!-- Amritapuri -->
+                <a href="campus-amritapuri.html" class="campus-link">
+                    <div class="campus-card">
+                        <img src="assets/amritapuri.jpg" class="campus-img" alt="Amritapuri Campus">
+                        <h3>Amritapuri</h3>
+                        <p class="campus-detail">Kollam, Kerala</p>
+                        <span class="read-more">View Courses ➔</span>
+                    </div>
+                </a>
+
+                <!-- Bengaluru -->
+                <a href="campus-bengaluru.html" class="campus-link">
+                    <div class="campus-card">
+                        <img src="assets/bengaluru.jpg" class="campus-img" alt="Bengaluru Campus">
+                        <h3>Bengaluru</h3>
+                        <p class="campus-detail">Karnataka</p>
+                        <span class="read-more">View Courses ➔</span>
+                    </div>
+                </a>
+
+                <!-- Chennai -->
+                <a href="campus-chennai.html" class="campus-link">
+                    <div class="campus-card">
+                        <img src="assets/chennai.jpg" class="campus-img" alt="Chennai Campus">
+                        <h3>Chennai</h3>
+                        <p class="campus-detail">Tamil Nadu</p>
+                        <span class="read-more">View Courses ➔</span>
+                    </div>
+                </a>
+
+                <!-- Faridabad -->
+                <a href="campus-faridabad.html" class="campus-link">
+                    <div class="campus-card">
+                        <img src="assets/faridabad.jpg" class="campus-img" alt="Faridabad Campus">
+                        <h3>Faridabad</h3>
+                        <p class="campus-detail">NCR Delhi</p>
+                        <span class="read-more">View Courses ➔</span>
+                    </div>
+                </a>
+
+                <!-- Haridwar -->
+                <a href="campus-haridwar.html" class="campus-link">
+                    <div class="campus-card">
+                        <img src="assets/haridwar.jpg" class="campus-img" alt="Haridwar Campus">
+                        <h3>Haridwar</h3>
+                        <p class="campus-detail">Uttarakhand</p>
+                        <span class="read-more">View Courses ➔</span>
+                    </div>
+                </a>
+
+                <!-- Kochi -->
+                <a href="campus-kochi.html" class="campus-link">
+                    <div class="campus-card">
+                        <img src="assets/kochi.jpg" class="campus-img" alt="Kochi Campus">
+                        <h3>Kochi</h3>
+                        <p class="campus-detail">Kerala</p>
+                        <span class="read-more">View Courses ➔</span>
+                    </div>
+                </a>
+
+                <!-- Mysuru -->
+                <a href="campus-mysuru.html" class="campus-link">
+                    <div class="campus-card">
+                        <img src="assets/mysuru.jpg" class="campus-img" alt="Mysuru Campus">
+                        <h3>Mysuru</h3>
+                        <p class="campus-detail">Karnataka</p>
+                        <span class="read-more">View Courses ➔</span>
+                    </div>
+                </a>
+
+                <!-- Nagercoil -->
+                <a href="campus-nagercoil.html" class="campus-link">
+                    <div class="campus-card">
+                        <img src="assets/nagercoil.jpg" class="campus-img" alt="Nagercoil Campus">
+                        <h3>Nagercoil</h3>
+                        <p class="campus-detail">Tamil Nadu</p>
+                        <span class="read-more">View Courses ➔</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="text-center mt-2" style="margin-top: 60px;">
+                <a href="index.html" class="btn primary-btn">Back to Home</a>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

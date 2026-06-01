@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Amrita Vishwa Vidyapeetham</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-section {
+            padding: 150px 0 100px;
+            min-height: 100vh;
+            background-color: var(--card-bg-light);
+            color: var(--text-main);
+        }
+        .contact-title {
+            color: var(--amrita-red);
+            font-size: 3.5rem;
+            margin-bottom: 40px;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+        }
+        .contact-info {
+            font-size: 1.25rem;
+            line-height: 1.8;
+            color: #4b5563;
+            margin-bottom: 50px;
+        }
+        .contact-info p {
+            margin-bottom: 30px;
+        }
+        .reach-us-btn {
+            display: inline-block;
+            padding: 15px 40px;
+            border: 2px solid var(--amrita-red);
+            color: var(--text-main);
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.3s ease;
+            background: transparent;
+        }
+        .reach-us-btn:hover {
+            background: var(--amrita-red);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">Amrita <span class="highlight">Vishwa Vidyapeetham</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="clubs.html">Clubs</a></li>
+            <li><a href="hostel.html">Campus Life</a></li>
+            <li><a href="index.html#survival">Survival Kit</a></li>
+            <li><a href="index.html#tools">Resources</a></li>
+            <li><a href="campuses.html">Campuses</a></li>
+            <li><a href="contact.html" class="highlight">Contact Us</a></li>
+        </ul>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+
+    <section class="contact-section">
+        <div class="container" style="max-width: 800px; margin: 0 auto; padding: 0 40px;">
+            <h1 class="contact-title">Contact us</h1>
+            
+            <div class="contact-info">
+                <p>
+                    Amrita School of Engineering,<br>
+                    Amrita Vishwa Vidyapeetham<br>
+                    Amaravati Campus<br>
+                    Kuragallu Village, Mangalagiri (M),<br>
+                    Guntur, Andhra Pradesh – 522503<br>
+                    India
+                </p>
+                <p>
+                    Phone : 08645 277808<br>
+                    (Working Timings: 9 AM &ndash; 5 PM, except public holidays)
+                </p>
+            </div>
+            
+            <a href="mailto:adminoffice@av.amrita.edu" class="reach-us-btn">Reach Us</a>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
